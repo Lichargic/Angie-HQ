@@ -2,11 +2,21 @@ name: Suggest Improvements
 description: Suggest a tool idea, clearer wording, or small polish for Angie.
 title: "[Idea]: "
 labels: ["enhancement", "triage"]
+assignees: [Lichargic]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this for tool ideas, confusing behavior, wording, layout polish, or anything that would make Angie easier to use.
+        Use this for tool ideas, confusing behavior, wording, layout polish, or anything that would make Angie easier to use. Angie is a solo project, so responses may take a few days.
+
+        Do not include security vulnerabilities or sensitive abuse paths here. See [SECURITY.md](https://github.com/Lichargic/Angie-HQ/blob/main/SECURITY.md) instead.
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Before you open this
+      options:
+        - label: I have searched existing issues and this is not a duplicate.
+          required: true
   - type: dropdown
     id: area
     attributes:
@@ -38,5 +48,5 @@ body:
     attributes:
       label: Public report check
       options:
-        - label: This does not include private vulnerability details, credentials, or API keys.
+        - label: This is not a security vulnerability or sensitive abuse report.
           required: true

@@ -2,11 +2,21 @@ name: Report Bugs
 description: Something on Angie is broken, confusing, or not working as expected.
 title: "[Bug]: "
 labels: ["bug", "triage"]
+assignees: [Lichargic]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this for bugs and broken behavior. Do not include account credentials, API keys, or private vulnerability details here.
+        Use this for bugs and broken behavior. Angie is a solo project, so responses may take a few days. The more detail you provide, the faster it gets addressed.
+
+        Do not include security vulnerabilities or sensitive abuse paths here. See [SECURITY.md](https://github.com/Lichargic/Angie-HQ/blob/main/SECURITY.md) instead.
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Before you open this
+      options:
+        - label: I have searched existing issues and this is not a duplicate.
+          required: true
   - type: dropdown
     id: tool
     attributes:
@@ -49,7 +59,7 @@ body:
     id: screenshots
     attributes:
       label: Screenshots or extra context
-      description: Add screenshots, browser details, or anything else that helps reproduce the issue.
+      description: Add screenshots, your browser and OS, or anything else that helps reproduce the issue.
     validations:
       required: false
   - type: checkboxes

@@ -2,11 +2,21 @@ name: Report Data Issues
 description: Report SkyBlock item data, NPC price, Bazaar behavior, or calculation inputs that look wrong.
 title: "[Data]: "
 labels: ["data", "triage"]
+assignees: [Lichargic]
 body:
   - type: markdown
     attributes:
       value: |
-        Use this when an item, NPC price, Bazaar-related value, or calculation input looks wrong.
+        Use this when an item, NPC price, Bazaar-related value, or calculation input looks wrong. Angie is a solo project, so responses may take a few days.
+
+        Do not include security vulnerabilities or sensitive abuse paths here. See [SECURITY.md](https://github.com/Lichargic/Angie-HQ/blob/main/SECURITY.md) instead.
+  - type: checkboxes
+    id: duplicate-check
+    attributes:
+      label: Before you open this
+      options:
+        - label: I have searched existing issues and this is not a duplicate.
+          required: true
   - type: dropdown
     id: tool
     attributes:
@@ -19,11 +29,11 @@ body:
   - type: input
     id: item
     attributes:
-      label: Item name
-      description: Name the item exactly as it appears in Angie, if possible.
+      label: Item name, if relevant
+      description: Name the item exactly as it appears in Angie, if the issue is item-specific.
       placeholder: Packed Ice
     validations:
-      required: true
+      required: false
   - type: textarea
     id: issue
     attributes:
@@ -44,5 +54,5 @@ body:
     attributes:
       label: Public report check
       options:
-        - label: This does not include private vulnerability details, credentials, or API keys.
+        - label: This is not a security vulnerability or sensitive abuse report.
           required: true
