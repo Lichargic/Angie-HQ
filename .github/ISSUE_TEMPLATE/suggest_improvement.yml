@@ -1,0 +1,42 @@
+name: Suggest Improvements
+description: Suggest a tool idea, clearer wording, or small polish for Angie.
+title: "[Idea]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for tool ideas, confusing behavior, wording, layout polish, or anything that would make Angie easier to use.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where would this apply?
+      options:
+        - NPC to Bazaar
+        - Homepage
+        - Angie overall
+        - Other or not sure
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change?
+      description: Describe the improvement in plain language.
+      placeholder: NPC to Bazaar should...
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why would this help?
+      description: Add any context, examples, or screenshots that explain the suggestion.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-report
+    attributes:
+      label: Public report check
+      options:
+        - label: This does not include private vulnerability details, credentials, or API keys.
+          required: true

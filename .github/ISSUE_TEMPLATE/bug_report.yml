@@ -1,0 +1,62 @@
+name: Report Bugs
+description: Something on Angie is broken, confusing, or not working as expected.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+type: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for bugs and broken behavior. Do not include account credentials, API keys, or private vulnerability details here.
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Where did it happen?
+      description: Choose the closest area.
+      options:
+        - NPC to Bazaar
+        - Homepage
+        - Other or not sure
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected instead.
+      placeholder: The NPC to Bazaar table showed...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the shortest path that triggers the problem.
+      placeholder: |
+        1. Open NPC to Bazaar
+        2. Search for...
+        3. Toggle...
+    validations:
+      required: true
+  - type: input
+    id: item
+    attributes:
+      label: Item or feature name, if relevant
+      description: If this is item-specific, name the item exactly as it appears in Angie.
+      placeholder: Enchanted Bonemeal
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or extra context
+      description: Add screenshots, browser details, or anything else that helps reproduce the issue.
+    validations:
+      required: false
+  - type: checkboxes
+    id: public-report
+    attributes:
+      label: Public report check
+      options:
+        - label: This is not a security vulnerability or sensitive abuse report.
+          required: true
