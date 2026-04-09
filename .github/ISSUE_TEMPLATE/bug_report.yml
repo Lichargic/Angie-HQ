@@ -4,68 +4,68 @@ title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees: [Lichargic]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Use this for bugs and broken behavior. Angie is a solo project, so responses may take a few days. The more detail you provide, the faster it gets addressed.
+    - type: markdown
+      attributes:
+          value: |
+              Use this for bugs and broken behavior. Angie is a solo project, so responses may take a few days. The more detail you provide, the faster it gets addressed.
 
-        Do not include security vulnerabilities or sensitive abuse paths here. See [SECURITY.md](https://github.com/Lichargic/Angie-HQ/blob/main/SECURITY.md) instead.
-  - type: checkboxes
-    id: duplicate-check
-    attributes:
-      label: Before you open this
-      options:
-        - label: I have searched existing issues and this is not a duplicate.
+              Do not include security vulnerabilities or sensitive abuse paths here. See [SECURITY.md](https://github.com/Lichargic/Angie-HQ/blob/main/SECURITY.md) instead.
+    - type: checkboxes
+      id: duplicate-check
+      attributes:
+          label: Before you open this
+          options:
+              - label: I have searched existing issues and this is not a duplicate.
+                required: true
+    - type: dropdown
+      id: tool
+      attributes:
+          label: Where did it happen?
+          description: Choose the closest area.
+          options:
+              - Homepage
+              - NPC to Bazaar
+              - Other / Not Sure
+      validations:
           required: true
-  - type: dropdown
-    id: tool
-    attributes:
-      label: Where did it happen?
-      description: Choose the closest area.
-      options:
-        - NPC to Bazaar
-        - Homepage
-        - Other or not sure
-    validations:
-      required: true
-  - type: textarea
-    id: problem
-    attributes:
-      label: What happened?
-      description: Describe the bug and what you expected instead.
-      placeholder: The NPC to Bazaar table showed...
-    validations:
-      required: true
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to reproduce
-      description: List the shortest path that triggers the problem.
-      placeholder: |
-        1. Open NPC to Bazaar
-        2. Search for...
-        3. Toggle...
-    validations:
-      required: true
-  - type: input
-    id: item
-    attributes:
-      label: Item or feature name, if relevant
-      description: If this is item-specific, name the item exactly as it appears in Angie.
-      placeholder: Enchanted Bonemeal
-    validations:
-      required: false
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: Screenshots or extra context
-      description: Add screenshots, your browser and OS, or anything else that helps reproduce the issue.
-    validations:
-      required: false
-  - type: checkboxes
-    id: public-report
-    attributes:
-      label: Public report check
-      options:
-        - label: This is not a security vulnerability or sensitive abuse report.
+    - type: textarea
+      id: problem
+      attributes:
+          label: What happened?
+          description: Describe the bug and what you expected instead.
+          placeholder: The NPC to Bazaar table showed...
+      validations:
           required: true
+    - type: textarea
+      id: steps
+      attributes:
+          label: Steps to reproduce
+          description: List the shortest path that triggers the problem.
+          placeholder: |
+              1. Open NPC to Bazaar
+              2. Search for...
+              3. Toggle...
+      validations:
+          required: true
+    - type: input
+      id: item
+      attributes:
+          label: Item or feature name, if relevant
+          description: If this is item-specific, name the item exactly as it appears in Angie.
+          placeholder: Enchanted Bonemeal
+      validations:
+          required: false
+    - type: textarea
+      id: screenshots
+      attributes:
+          label: Screenshots or extra context
+          description: Add screenshots, your browser and OS, or anything else that helps reproduce the issue.
+      validations:
+          required: false
+    - type: checkboxes
+      id: public-report
+      attributes:
+          label: Public report check
+          options:
+              - label: This is not a security vulnerability or sensitive abuse report.
+                required: true
