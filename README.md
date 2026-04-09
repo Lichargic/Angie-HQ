@@ -1,8 +1,8 @@
 <div align="center">
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=ffaa00&height=160&section=header&text=Angie%20SkyHelper&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=42)
-[![Open Angie](https://img.shields.io/badge/open-angie.lichargic.com-ffaa00?style=for-the-badge&logo=vercel&logoColor=white)](https://angie.lichargic.com)
-[![Report a Problem](https://img.shields.io/badge/report-a%20problem-ffaa00?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lichargic/Angie-HQ/issues)
+[![Open Angie](https://img.shields.io/badge/open-angie.lichargic.com-cc8800?style=for-the-badge&logo=vercel&logoColor=white)](https://angie.lichargic.com)
+[![Report a Problem](https://img.shields.io/badge/report-a%20problem-cc8800?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Lichargic/Angie-HQ/issues)
 
 <br>
 
