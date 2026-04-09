@@ -7,10 +7,10 @@
 <br>
 
 <p align="center">
-  <b>Explore Angie HQ</b><br>
-  <i><a href="#features">Features</a>
+  <i>Tools and Calculators for Hypixel SkyBlock. Live data. No Guesswork.</i><br><br>
+  <a href="#features">Features</a>
   &middot; <a href="#report-an-issue">Report an Issue</a>
-  &middot; <a href="#about">About</a></i>
+  &middot; <a href="#about">About</a>
 </p>
 
 </div>
@@ -31,8 +31,6 @@ NPC to Bazaar is the first live tool. More are in progress.
 
 Runs the math on every NPC-sold item at once. Compare insta-sell and sell-order returns, account for Bazaar tax, and see which order books are too thin to trust the price. A sanity-check for a flip, not a profit guarantee.
 
-<br>
-
 <div align="center">
   <a href="https://angie.lichargic.com/npc-bazaar/">
     <img src="https://angie.lichargic.com/images/npc_bazaar.png" alt="NPC to Bazaar showing item flip cards with profit estimates" width="100%">
@@ -49,14 +47,14 @@ Runs the math on every NPC-sold item at once. Compare insta-sell and sell-order 
 
 - **Something broke:** [report a bug](https://github.com/Lichargic/Angie-HQ/issues/new?template=bug_report.yml)
 - **A number or item looks wrong:** [report a data issue](https://github.com/Lichargic/Angie-HQ/issues/new?template=data_issue.yml)
-- **Something could be clearer:** [suggest an improvement](https://github.com/Lichargic/Angie-HQ/issues/new?template=suggest_improvement.yml)
+- **Something could be better:** [suggest an improvement](https://github.com/Lichargic/Angie-HQ/issues/new?template=suggest_improvement.yml)
 
-For security issues, don't open a public issue. Read [SECURITY.md](SECURITY.md) instead.
+> **Security issues:** Don't open a public issue. Read [SECURITY.md](SECURITY.md) instead.
 
-The more context, the faster it gets fixed:
+The more context, the faster it gets addressed:
 
 - Which tool or page you were using
-- The item name, if it's item-specific
+- The item name, if relevant
 - What you expected
 - What actually happened
 - A screenshot, if the issue is visual

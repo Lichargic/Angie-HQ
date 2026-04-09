@@ -1,8 +1,1 @@
 blank_issues_enabled: false
-contact_links:
-  - name: Security Reports
-    url: https://github.com/Lichargic/Angie-HQ/security/policy
-    about: Report vulnerabilities or sensitive abuse paths privately instead of opening a public issue.
-  - name: Open Angie
-    url: https://angie.lichargic.com
-    about: Open Angie in your browser.
