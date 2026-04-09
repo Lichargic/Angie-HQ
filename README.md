@@ -35,22 +35,32 @@ Runs the math on every NPC-sold item at once. Compare insta-sell and sell-order 
 
 <table>
   <tr>
-    <td width="60%">
+    <td colspan="3" align="center">
       <a href="https://angie.lichargic.com/npc-bazaar/">
         <img src="https://angie.lichargic.com/images/npc_bazaar.png" alt="NPC to Bazaar showing item flip cards with profit estimates" width="100%">
       </a>
+      <br>
+      <sub><a href="https://angie.lichargic.com/npc-bazaar/">Try it &rarr;</a></sub>
     </td>
-    <td valign="top">
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <br>
       <b>All NPCs at once</b><br>
       <sub>No tab-switching or Wiki cross-referencing</sub>
-      <br><br>
+      <br>
+    </td>
+    <td align="center" width="33%">
+      <br>
       <b>Tax-aware pricing</b><br>
       <sub>Insta-sell and sell-order with your settings applied</sub>
-      <br><br>
+      <br>
+    </td>
+    <td align="center" width="33%">
+      <br>
       <b>Market depth warnings</b><br>
       <sub>Flags thin order books so you know when the price isn't reliable</sub>
-      <br><br>
-      <a href="https://angie.lichargic.com/npc-bazaar/"><b>Try it &rarr;</b></a>
+      <br>
     </td>
   </tr>
 </table>
