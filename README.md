@@ -48,10 +48,9 @@ Runs the math on every NPC-sold item at once. Compare insta-sell and sell-order 
       <sub>Flags thin order books so you know when the price isn't reliable</sub>
     </td>
   </tr>
-</table>
-<table>
   <tr>
-    <td align="center">
+    <td colspan="3" align="center">
+      <br>
       <a href="https://angie.lichargic.com/npc-bazaar/">
         <img src="https://angie.lichargic.com/images/npc_bazaar.png" alt="NPC to Bazaar showing item flip cards with profit estimates" width="100%">
       </a>
