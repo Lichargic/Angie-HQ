@@ -7,7 +7,7 @@
 <br>
 
 <p align="center">
-  <i>Tools and Calculators for Hypixel SkyBlock. Live data. No guesswork.</i><br><br>
+  <i>Smart Tools for Hypixel SkyBlock. Live Data. No Guesswork.</i><br><br>
   <a href="#features">Features</a>
   &middot; <a href="#report-an-issue">Report an Issue</a>
   &middot; <a href="#about">About</a>
