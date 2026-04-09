@@ -33,19 +33,15 @@ Runs the math on every NPC-sold item at once. Compare insta-sell and sell-order 
 
 <br>
 
-<table>
-  <tr>
-    <td colspan="3" align="center">
-      <a href="https://angie.lichargic.com/npc-bazaar/">
-        <img src="https://angie.lichargic.com/images/npc_bazaar.png" alt="NPC to Bazaar showing item flip cards with profit estimates" width="100%">
-      </a>
-      <br><br>
-      <a href="https://angie.lichargic.com/npc-bazaar/">
-        <img src="https://img.shields.io/badge/open-npc%20to%20bazaar-cc8800?style=for-the-badge&logo=vercel&logoColor=white" alt="Open NPC to Bazaar">
-      </a>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://angie.lichargic.com/npc-bazaar/">
+    <img src="https://angie.lichargic.com/images/npc_bazaar.png" alt="NPC to Bazaar showing item flip cards with profit estimates" width="100%">
+  </a>
+  <br><br>
+  <a href="https://angie.lichargic.com/npc-bazaar/">
+    <img src="https://img.shields.io/badge/open-npc%20to%20bazaar-cc8800?style=for-the-badge&logo=vercel&logoColor=white" alt="Open NPC to Bazaar">
+  </a>
+</div>
 
 ---
 
